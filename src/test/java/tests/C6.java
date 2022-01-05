@@ -55,7 +55,7 @@ public class C6 {
         }
         Methods.writeexcel(glinks,0,0);
         Methods.writeexcel(gtitles,0,1);
-        Methods.writeexcel(gtitles,0,2);
+        Methods.writeexcel(gcontent,0,2);
 
         driver.quit();
     }
